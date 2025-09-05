@@ -7,7 +7,7 @@ from watchdog.events import FileSystemEventHandler
 import win32security
 
 DB_PATH = r"C:\Users\Admin\Database\new_db.db"
-WATCH_DIR = r"C:\Users\Admin\OneDrive\Desktop\personal doc"
+WATCH_DIR = r"C:\Users\Admin\OneDrive"
 
 def get_owner(file_path):
     try:
